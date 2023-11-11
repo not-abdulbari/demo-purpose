@@ -1,0 +1,75 @@
+body{
+    background-color: aqua;
+    background-image: url(depositphotos_412741846-stock-illustration-green-line-clipboard-checklist-icon.jpg);
+    color: black;
+}
+.out{
+
+
+    background-color: white;
+    color: black;
+    width: auto;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom: auto;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 32px;
+    border-style: solid;
+    padding-bottom: 10px;
+
+
+}
+.name{
+    padding-left: 10%;
+}
+.three{
+ padding-left: 10%;
+ line-height: 0%;
+}
+h1{
+    background-color: plum;
+    border-radius: 35px;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.one{
+    display:block;
+}
+.s{
+    padding-right: 10%;
+}
+.button{
+    height: 20px;
+    width: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.su{
+    margin-left: 30%;
+    padding: 5px;
+
+}
+
+img{
+    border-radius: 32px;
+    width: 80%;
+    height: 20%;
+    padding-top: 10px;
+}
+.ru{
+    padding: 5px;
+}
+button{
+    cursor: pointer;
+}
+button:hover
+{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
+    background-color: cyan;
+    color:white
+}
