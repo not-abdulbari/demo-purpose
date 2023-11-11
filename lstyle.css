@@ -3,11 +3,11 @@ body {
     align-items: center;
     font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
     justify-content: center;
-    background-image:url("Untitled-design.webp");
+    background-image:url("img1.webp");
     background-size:contain;
     background-position :center;
     background-repeat: no-repeat;
-    background-color:#D7E2FF;
+    background-color:#FDF3E4;
     height: 100vh;
     
   }
