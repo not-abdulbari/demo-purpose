@@ -1,0 +1,123 @@
+body {
+    display: flex;
+    align-items: center;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    justify-content: center;
+    background-image:url("img1.webp");
+    background-size:contain;
+    background-position :center;
+    background-repeat: no-repeat;
+    background-color:#FDF3E4;
+    height: 100vh;
+    
+  }
+  
+  .login-form {
+    background-color: rgba(255, 255, 255, 0.1);;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0.375;
+    padding: 2rem;
+  }
+  
+  .form-title {
+    font-weight: bold;
+    color: #000;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .input-field {
+    width: 100%;
+    height: 200%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #a0aec0;
+    border-radius: 0.25rem;
+  }
+  
+  .checkbox-section {
+    margin-bottom: 1rem;
+  }
+  
+  .form-checkbox {
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkbox {
+    margin-right: 0.5rem;
+  }
+  
+  .checkbox-text {
+    font-size: 0.875rem;
+  }
+  
+  .button-section {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .signin-button{
+    align-items: center;
+    background-color: #B4AC88;
+    border: 0;
+    border-radius: 50px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+  }
+  
+  .signin-button:hover,
+  .signin-button:focus { 
+    background-color: #EAD4AF;
+    color: #ffffff;
+  }
+  
+  .signin-button:active {
+    background: #09223b;
+    color: rgb(255, 255, 255, .7);
+  }
+  
+  .signin-button:disabled { 
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, .08);
+    color: rgba(0, 0, 0, .3);
+  }
+  }
+  
+  .text-section {
+    text-align: center;
+    font-size: 0.75rem;
+    margin-top: 1rem;
+  }
+  
+  .text-link {
+    color: white;
+    text-decoration: underline;
+    margin-right: 0.5rem;
+  }
+  
+  .text-span {
+    color: white;
+  }
+  
